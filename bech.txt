@@ -1,0 +1,20 @@
+) A função desse site é bem executada?
+Sim, o site executa bem a função de selecionar filmes que passam nos requisitos 
+
+
+
+2) Você encontrou algum fime interessante que passe nesse teste? Informe.
+Zack Snyder's Justice League. Para mim este filme é muito interessante e ele é aprovado no teste
+
+
+3) Você encontrou algum fime interessante que não passe nesse teste? Informe.
+The Tomorrow War. Em minha opnião este filme é muito interessante porém não passa no teste do site 
+
+
+4) Visualmente o site é fraco. Isso é uma afirmação.
+Diga como o site pode ser melhorado, focando sempre na experiência do usuário.
+-Centralização dos textos, os textos do site estão dispostos de maneira confusa
+-A falta de imagens ou links para os trailers de cada filme
+-Falta de cores, o site parece muito morto 
+-Os botões estão poucos destacados, dificuldade de visualização
+-Para adicionar um título ao site o formulário requisitado é muito mal guiado 
