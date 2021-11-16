@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="elevador"></div>
+
+    <script type="text/javascript">
+
+        class Elevador {
+        constructor(andarAtual, totalDeAndares, capaciadeDoElevador, quantosTemNoEleador) {
+            this.andarAtual = andarAtual;
+            this.totalDeAndares = totalDeAndares;
+            this.capaciadeDoElevador = capaciadeDoElevador;
+            this.quantosTemNoEleador = quantosTemNoEleador; 
+        }
+
+        Entra(){
+            if(this.capaciadeDoElevador == this.quantosTemNoEleador ){
+                console.log("O Elevador esta cheio")
+            }else{
+                this.quantosTemNoEleador = this.quantosTemNoEleador + 1;
+            console.log('A olevador tem ' + this.quantosTemNoEleador +' pessoas.');
+            }
+        }
+        Sai(){
+            if(this.quantosTemNoEleador == 0 ){
+                console.log("O Elevador já esta vazio")
+            }else{
+                this.quantosTemNoEleador = this.quantosTemNoEleador - 1;
+            console.log('O elevador tem ' + this.quantosTemNoEleador +' pessoas.');
+            }
+        }
+        Sobe(){
+            if(this.andarAtual == this.totalDeAndares ){
+                console.log("O Elevador já esta no ultimo andar")
+            }else{
+                this.andarAtual = this.andarAtual + 1;
+            console.log('O elevador esta no ' + this.andarAtual +' andar.');
+            }
+        }
+        Desce(){
+            if(this.andarAtual == 0 ){
+                console.log("O Elevador já esta no andar mais baixo")
+            }else{
+                this.andarAtual = this.andarAtual - 1;
+            console.log('A olevador esta no ' + this.andarAtual +' andar.');
+            }
+        }
+    }
+
+        var elevado = new Elevador ('0', '7', '6', '0')
+
+        elevado.Desce()
+        elevado.Sai()
+    </script>
+</body>
+</html>
